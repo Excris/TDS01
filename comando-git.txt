@@ -1,0 +1,68 @@
+link para baixar o git
+git-scm.com
+
+Iniciar um novo projeto com git
+git init
+
+git add <nome-comando-git/ ou .
+
+
+commit os arquivos no historico
+git commit -m "<Sua mensagem de commit>"
+
+ALterar o ultimo commit
+gir commit --amend -m "<Sua mensagem de commit>"
+
+mostra os todos os commits
+git log
+
+mostra o que foi alterado
+git diff
+
+cria uma nova branch a partir da branch atual
+git branch -b <nome-da-nova-branch>
+
+listar as branch e mostrar a branch atual (que estamos)
+git branch
+
+muda para esta branch
+git checkout <nome-branch>
+
+git marge
+merge de ramificação (mescla a ramificação)
+
+configura o usúario do gitgub
+git config --blobal user.name "<seu-nome>"
+
+configura o email do github
+git config --blobal user.email "<seu-email-cadastrado-no@git.com>"
+
+mostrar todos configurações quetemos ja feito
+git config --global --list 
+
+mostra todas configurações que podemos  fazer
+gir config --list
+
+manda nossas alterações locais para o repositório remoto, para cada branch
+git remote add origin <nome-da-branch>
+
+manda nossas alterações locais para o repositório remote
+git push
+git push origin <nome-da-branch>
+
+pega as alterações do repositório remote e joga para nossa maquina
+git pull 
+git pull origin <nome-da-branch>
+
+atualiza o nossa historico local de acordo com o historico salvo la no repositório remote
+git fetch
+
+git (clona um repositório)
+git clone <url-do-repositório>
+
+copia (clona um repositório e cria uma pasta com o clone dentro)
+git clone <url-do-repositório <nome-da-pasta>
+
+volta para  arquivo original. cancela todas as modificações feitas
+git restore <nome-do-arquivo>
+
